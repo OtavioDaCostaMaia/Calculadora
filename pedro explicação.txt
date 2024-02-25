@@ -1,1 +1,22 @@
+Um código Python é composto por instruções que são executadas pelo interpretador Python. Vamos dar uma olhada em um exemplo simples para entender como funciona. Considere o seguinte código que calcula a média de três números:
 
+python
+Copy code
+# Definindo as variáveis
+num1 = 10
+num2 = 20
+num3 = 30
+
+# Calculando a média
+media = (num1 + num2 + num3) / 3
+
+# Exibindo o resultado
+print("A média é:", media)
+
+Quando você executa este código, o interpretador Python lê linha por linha e executa as instruções. Vamos ver o que acontece em cada linha:
+
+num1 = 10: Aqui, uma variável chamada num1 é criada e recebe o valor 10.
+num2 = 20: Uma variável num2 é criada e recebe o valor 20.
+num3 = 30: Uma variável num3 é criada e recebe o valor 30.
+media = (num1 + num2 + num3) / 3: Uma variável media é criada e calculada como a soma dos três números dividida por 3.
+print("A média é:", media): O resultado é exibido na tela.
