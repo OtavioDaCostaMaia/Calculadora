@@ -1,0 +1,49 @@
+txt. Depois de uma larga pesquisa e vídeos, aqui estara a mimha explicação sobre a calculadora:
+
+Def ( Soma ) — Linha que define a soma, dentre dois argumentos; A e B.
+
+Return ( A+B ) — Simplesmente, retorna a soma dos argumentos.
+
+Def ( Subtração ) — Irá definir uma função que irá ser oposta a soma, a subtração dos argumentos.
+
+Return ( A-B ) — Irá retornar a subtração dos argumentos.
+
+Def ( Multiplicação ) — Irá definir a função da multiplicação.
+
+Return ( A*B ) — Irá retornar o resultado da multiplicação imposta nos argumentos.
+
+Def ( Divisão ) — Já nesta questão, irá definir uma função de divisão aos argumentos da calculadora.
+
+If b == 0: — De forma simples ele irá verificar se B é igual a zero.
+
+Return ( Ex: Erro! Divisão por zero não é permitido ) — Bom, este comando irá retornar a uma mensagem de erro, se no caso B seja zero.
+
+Return ( A/B ) — De forma simples, tal irá retornar o resultado de divisão dos argumentos.
+
+Print ( 'Selecione a seguinte operação:' ) — Este Comando, sendo um pouco mais complexo, irá imprimir uma mensagem solicitada ao usuário.
+
+escolha = input("Digite a sua escolha (1/2/3/4): ") — Irá solicitar ao usuário da calculadora que digite a sequência de variáveis a escolha.
+
+num1 = float(input("Digite o primeiro número: ")) — Sendo bem complexo, esta linha irá solicitar ao usuário, que digite o número e faça uma conversão para um número de ponto flutuante. Armazenando-o no num1.
+
+num2 = float(input("Digite o segundo número: ")) — Sendo semelhante ao num1, está linha irá solicitar ao seu usuário que digite um segundo número! Para assim realizar uma conversão, para um número de ponto flutuante. No qual vai armazenar-se no num2.
+
+if escolha == '1': - Tal vai apenas verificar se a escolha do usuário é igual ao número 1.
+
+print(num1, "+", num2, "=", soma(num1, num2)) — Aqui, o comando da expressão da soma do num1 e num2, junto com o resultado da função soma.
+
+elif escolha == '2': - Igual ao If escolha== '1', tal irá apenas verificar se a escolha do usuário é igual ao número 2.
+
+print(num1, "-", num2, "=", subtracao(num1, num2)) — Aqui irá ser ao contrário da soma, imprimindo a expressão da subtração do num1 e num2, junto do resultado da função subtração.
+
+elif escolha == '3': — Tal irá apenas verificar se a escolha do usuário é igual ao número 3.
+
+print(num1, "*", num2, "=", multiplicacao(num1, num2)) — Aqui irá ser semelhante aos outros, só que irá imprimir a expressão da multiplicação do num1 e num2, adjunto do resultado da função da multiplicação.
+
+elif escolha == '4': - Semelhante aos outros, irá verificar a escolha do usuário será igual ao número 4.
+
+print(num1, "/", num2, "=", divisao(num1, num2)) — Irá imprimir a expressão da divisão do num1 e num2, sendo oposta a multiplicação, adjunto do resultado da função de divisão.
+
+else: — Se nenhuma das condições forem verdadeiras, propondo o seguinte, se o usuário não inserir nenhum tipo de escolha valida do programa, um comando irá se ativar automaticamente;
+
+print("Opção inválida") — Sendo bem comum, no qual irá imprimir uma imagem mencionando escolha inválida.
