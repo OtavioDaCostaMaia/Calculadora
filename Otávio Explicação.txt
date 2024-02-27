@@ -1,4 +1,4 @@
-txt. Depois de uma larga pesquisa e vídeos, aqui estara a mimha explicação sobre a calculadora:
+Depois de uma larga pesquisa e vídeos, aqui estara a mimha explicação sobre a calculadora:
 
 Def ( Soma ) — Linha que define a soma, dentre dois argumentos; A e B.
 
